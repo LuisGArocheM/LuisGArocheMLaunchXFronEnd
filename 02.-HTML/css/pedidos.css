@@ -1,0 +1,58 @@
+html {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+    background-color: #ecf0f1;
+    color: #34495e;
+    font-family: Trebuchet, Arial, sans-serif;
+    text-align: center;
+  }
+  
+
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400);
+form{
+  padding: 60px;
+  max-width: 400px;
+  background-color: #E7E7E7;
+  margin: 0 auto;
+}
+
+form input, form textarea{
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box; 
+  border: none; 
+  color: #525c66; 
+  font-size: 1em;
+  resize: none; 
+}
+
+form button {
+	display: block;
+	background-color: #0095eb;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+  font-family: "Roboto", sans-serif;
+}
+
+
+form button hover{
+	background-color: #046193;
+}
+textarea {  resize: none;}
